@@ -41,7 +41,7 @@ def main():
     bitcoin = get_bitcoin()
     price = get_bitcoin_price()
     Current_price = Calculate_Price(bitcoin, price)
-    print(f"${Current_price:.2f}")
+    print(f"${Current_price:,.2f}")
 
 
 if __name__ == "__main__":
